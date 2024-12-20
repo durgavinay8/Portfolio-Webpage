@@ -185,6 +185,10 @@ textarea {
 .btn:hover {
   transform: translateY(-3px);
 }
+.btn:active {
+  filter: brightness(85%);
+  transform: translateY(4px);
+}
 .btn--bg {
   padding: 1.5rem 8rem;
   font-size: 2rem;
@@ -344,7 +348,7 @@ textarea {
 }
 .about__content-details-para {
   font-size: 1.8rem;
-  color: grey;
+  color: darkslategray;
   max-width: 60rem;
   line-height: 1.7;
   margin-bottom: 1rem;
@@ -419,6 +423,11 @@ textarea {
   .projects__row-content-desc {
     font-size: 1.7rem;
   }
+}
+.projects__row-content-links {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
 }
 
 .contact {
@@ -875,8 +884,9 @@ textarea {
   font-size: 1.6rem;
   background: rgba(153, 153, 153, 0.2);
   border-radius: 5px;
+  border: 1px solid #0062b9;
   font-weight: 600;
-  color: #777;
+  color: darkslategray;
 }
 
 .mouse {
